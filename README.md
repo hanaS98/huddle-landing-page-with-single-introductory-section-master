@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/hanaS98/huddle-landing-page-with-single-introductory-section-master/blob/main/index.html)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://hanas98.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
