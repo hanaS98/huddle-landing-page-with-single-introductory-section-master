@@ -1,0 +1,131 @@
+
+/*Mobile Screen*/
+@media (min-width: 320px)
+and (max-width: 1199px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        padding: 30px 30px 40px;
+    }
+    .content .screen img{
+        height: 100%;
+        width: 100%;
+    }
+    header img{
+        width: 40%;
+    }
+    .content{
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .content .text h2 {
+        font-size: 25px;
+    }
+    .content .text p{
+        font-size: 16px;
+    }
+    .content .text button {
+        height: 37px;
+        font-size: 12px;
+    }
+    .socialMedia{
+        right: 35%;
+        bottom: -83px;
+        column-gap: 10px;
+    }
+    .socialMedia i{
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+}
+/*Desktop Screen*/
+@media (min-width: 1200px)
+and (max-width: 1600px){
+    body{
+        background-image: url(../images/bg-desktop.svg);
+        padding: 60px 80px 40px;
+    }
+    .content .screen img{
+        height: 100%;
+        width: auto;
+    }
+    .content{
+        margin-top: 80px;
+    }
+    .content .text h2 {
+        font-size: 40px;
+    }
+    .content .text p{
+        font-size: 18px;
+    }
+    .content .text button {
+        height: 60px;
+        font-size: 20px;
+    }
+    .socialMedia{
+    right: 60px;
+    bottom: 40px;
+    column-gap: 20px;
+    }
+    .socialMedia i{
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+    }
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    background-repeat: no-repeat;
+}
+.content{
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+}
+.content .text h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 45px 0 25px;
+}
+.content .text p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+}
+.content .text button{
+    background-color: white;
+    width: 205px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 50%);
+}
+.content .text button:hover{
+    color:white;
+    background-color: hsl(300, 69%, 71%);
+}
+.socialMedia{
+    position: absolute;
+    display: flex;
+}
+.socialMedia i{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+}
+.socialMedia i:hover{
+    color:hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
